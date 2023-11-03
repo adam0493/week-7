@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    /* adds a width and centers */
+    width: 500px;
+    margin: 0 auto;
+}
+
+.boxmodel{
+    background-color: paleturquoise;
+   width: 500px;
+   padding: 10px;
+   border: 5px dotted pink;
+   text-align: center;
+   box-sizing: border-box;
+   clear: left;
+}
+nav{
+    background-color: paleturquoise;
+    position:absolute;
+    width: 100%;
+    top: 0%;
+    z-index: 0;
+}
+nav li{
+    background-color: rgb(255, 196, 153);
+    /* display: inline-block */
+    /* width: 100px; */
+    display: inline-block;
+}
+nav a{
+    background-color: rgb(252, 230, 220);
+    padding:10px;
+    display: inline-block;
+}
+.float img{
+    width: 200px;
+    height: auto;
+    float: left;
+}
+.float p::after{
+content: "ALLLOOO"
+}
+.clearfic::after {
+    content:"This is cleared!"
+}
+.clearfix::after{
+    display: block;
+    clear:both;
+}
+.stage{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(255, 230, 230)
+
+}
+.prop{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(251, 242, 213);
+    left: 50px;
+    position: fixed;
+    /* top: 50px; */
+}
+h1{
+    font-weight: normal;
+    font-color: red;
+}
